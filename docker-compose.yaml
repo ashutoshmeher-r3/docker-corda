@@ -22,7 +22,6 @@ services:
     ports:
       - "10006:10201"
       - "2222:2222"
-      - "20001:20001"
     volumes:
       - ./partya/node.conf:/etc/corda/node.conf
       - ./partya/certificates:/opt/corda/certificates
